@@ -1,0 +1,15 @@
+io\seata\apm\skywalking\plugin\define\RemotingProcessorInstrumentation$1.class
+io\seata\apm\skywalking\plugin\RemotingProcessorProcessInterceptor.class
+io\seata\apm\skywalking\plugin\common\SeataPluginConfig$Plugin.class
+io\seata\apm\skywalking\plugin\define\DefaultCoreInstrumentation$1.class
+io\seata\apm\skywalking\plugin\NettyRemotingClientSendSyncInterceptor.class
+io\seata\apm\skywalking\plugin\common\SeataPluginConfig.class
+io\seata\apm\skywalking\plugin\define\RemotingProcessorInstrumentation.class
+io\seata\apm\skywalking\plugin\define\DefaultCoreInstrumentation.class
+io\seata\apm\skywalking\plugin\define\AbstractNettyRemotingInstrumentation$1.class
+io\seata\apm\skywalking\plugin\define\AbstractNettyRemotingInstrumentation$2.class
+io\seata\apm\skywalking\plugin\define\AbstractNettyRemotingInstrumentation.class
+io\seata\apm\skywalking\plugin\common\SWSeataConstants.class
+io\seata\apm\skywalking\plugin\common\SeataPluginConfig$Plugin$SEATA.class
+io\seata\apm\skywalking\plugin\DefaultCoreDoGlobalCommitInterceptor.class
+io\seata\apm\skywalking\plugin\common\SWSeataUtils.class

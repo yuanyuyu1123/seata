@@ -1,0 +1,2 @@
+io\seata\integration\brpc\TransactionPropagationClientInterceptor.class
+io\seata\integration\brpc\TransactionPropagationServerInterceptor.class

@@ -1,0 +1,10 @@
+io\seata\rm\AbstractRMHandler$2.class
+io\seata\rm\AbstractResourceManager.class
+io\seata\rm\DefaultRMHandler$SingletonHolder.class
+io\seata\rm\DefaultResourceManager$SingletonHolder.class
+io\seata\rm\AbstractRMHandler.class
+io\seata\rm\DefaultResourceManager.class
+io\seata\rm\AbstractRMHandler$1.class
+io\seata\rm\DefaultResourceManager$1.class
+io\seata\rm\DefaultRMHandler.class
+io\seata\rm\RMClient.class

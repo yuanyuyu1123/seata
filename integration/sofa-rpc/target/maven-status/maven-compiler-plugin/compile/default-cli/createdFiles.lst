@@ -1,0 +1,2 @@
+io\seata\integration\sofa\rpc\TransactionContextProviderFilter.class
+io\seata\integration\sofa\rpc\TransactionContextConsumerFilter.class

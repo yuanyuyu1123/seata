@@ -1,0 +1,6 @@
+io\seata\spring\boot\autoconfigure\SeataSagaAutoConfiguration.class
+io\seata\spring\boot\autoconfigure\SeataDataSourceAutoConfiguration.class
+io\seata\spring\boot\autoconfigure\SeataSagaAutoConfiguration$SagaAsyncThreadPoolExecutorConfiguration.class
+io\seata\spring\boot\autoconfigure\HttpAutoConfiguration.class
+io\seata\spring\boot\autoconfigure\SeataAutoConfiguration.class
+META-INF\spring-configuration-metadata.json

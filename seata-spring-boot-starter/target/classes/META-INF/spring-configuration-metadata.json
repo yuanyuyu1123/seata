@@ -1,0 +1,12 @@
+{
+  "groups": [
+    {
+      "name": "seata.saga.state-machine",
+      "type": "io.seata.saga.engine.StateMachineConfig",
+      "sourceType": "io.seata.spring.boot.autoconfigure.SeataSagaAutoConfiguration",
+      "sourceMethod": "dbStateMachineConfig(javax.sql.DataSource,javax.sql.DataSource,java.util.concurrent.ThreadPoolExecutor,java.lang.String,java.lang.String)"
+    }
+  ],
+  "properties": [],
+  "hints": []
+}

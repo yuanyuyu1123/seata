@@ -1,0 +1,10 @@
+E:\javagit\seata\seata-spring-autoconfigure\seata-spring-autoconfigure-server\src\main\java\io\seata\spring\boot\autoconfigure\properties\server\ServerUndoProperties.java
+E:\javagit\seata\seata-spring-autoconfigure\seata-spring-autoconfigure-server\src\main\java\io\seata\spring\boot\autoconfigure\properties\server\ServerProperties.java
+E:\javagit\seata\seata-spring-autoconfigure\seata-spring-autoconfigure-server\src\main\java\io\seata\spring\boot\autoconfigure\SeataServerEnvironmentPostProcessor.java
+E:\javagit\seata\seata-spring-autoconfigure\seata-spring-autoconfigure-server\src\main\java\io\seata\spring\boot\autoconfigure\properties\server\store\StoreFileProperties.java
+E:\javagit\seata\seata-spring-autoconfigure\seata-spring-autoconfigure-server\src\main\java\io\seata\spring\boot\autoconfigure\properties\server\store\StoreRedisProperties.java
+E:\javagit\seata\seata-spring-autoconfigure\seata-spring-autoconfigure-server\src\main\java\io\seata\spring\boot\autoconfigure\properties\server\store\StoreDBProperties.java
+E:\javagit\seata\seata-spring-autoconfigure\seata-spring-autoconfigure-server\src\main\java\io\seata\spring\boot\autoconfigure\properties\server\store\StoreProperties.java
+E:\javagit\seata\seata-spring-autoconfigure\seata-spring-autoconfigure-server\src\main\java\io\seata\spring\boot\autoconfigure\properties\server\MetricsProperties.java
+E:\javagit\seata\seata-spring-autoconfigure\seata-spring-autoconfigure-server\src\main\java\io\seata\spring\boot\autoconfigure\properties\server\ServerRecoveryProperties.java
+E:\javagit\seata\seata-spring-autoconfigure\seata-spring-autoconfigure-server\src\main\java\io\seata\spring\boot\autoconfigure\properties\server\session\SessionProperties.java

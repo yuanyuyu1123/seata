@@ -1,0 +1,15 @@
+io\seata\spring\boot\autoconfigure\properties\server\store\StoreProperties$Session.class
+io\seata\spring\boot\autoconfigure\properties\server\ServerUndoProperties.class
+io\seata\spring\boot\autoconfigure\properties\server\MetricsProperties.class
+io\seata\spring\boot\autoconfigure\properties\server\store\StoreRedisProperties.class
+io\seata\spring\boot\autoconfigure\properties\server\store\StoreProperties$Lock.class
+io\seata\spring\boot\autoconfigure\SeataServerEnvironmentPostProcessor.class
+io\seata\spring\boot\autoconfigure\properties\server\store\StoreRedisProperties$Sentinel.class
+META-INF\spring-configuration-metadata.json
+io\seata\spring\boot\autoconfigure\properties\server\store\StoreRedisProperties$Single.class
+io\seata\spring\boot\autoconfigure\properties\server\ServerRecoveryProperties.class
+io\seata\spring\boot\autoconfigure\properties\server\store\StoreFileProperties.class
+io\seata\spring\boot\autoconfigure\properties\server\store\StoreDBProperties.class
+io\seata\spring\boot\autoconfigure\properties\server\ServerProperties.class
+io\seata\spring\boot\autoconfigure\properties\server\store\StoreProperties.class
+io\seata\spring\boot\autoconfigure\properties\server\session\SessionProperties.class

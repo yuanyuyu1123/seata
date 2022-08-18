@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="seata-saga-rm" />
+        <module name="seata-sqlparser-antlr" />
+        <module name="seata-core" />
+        <module name="seata-saga-statelang" />
+        <module name="seata-sqlparser-core" />
+        <module name="seata-config-all" />
+        <module name="seata-dubbo" />
+        <module name="seata-dubbo-alibaba" />
+        <module name="seata-discovery-core" />
+        <module name="seata-metrics-all" />
+        <module name="seata-discovery-sofa" />
+        <module name="seata-discovery-zk" />
+        <module name="seata-discovery-consul" />
+        <module name="seata-discovery-etcd3" />
+        <module name="seata-saga-processctrl" />
+        <module name="seata-compressor-lz4" />
+        <module name="seata-test" />
+        <module name="seata-discovery-redis" />
+        <module name="seata-grpc" />
+        <module name="seata-console" />
+        <module name="seata-discovery-all" />
+        <module name="seata-server" />
+        <module name="seata-spring-boot-starter" />
+        <module name="seata-metrics-registry-compact" />
+        <module name="seata-metrics-core" />
+        <module name="seata-brpc" />
+        <module name="seata-compressor-zstd" />
+        <module name="seata-config-consul" />
+        <module name="seata-tcc" />
+        <module name="seata-compressor-7z" />
+        <module name="seata-spring-autoconfigure-core" />
+        <module name="seata-compressor-bzip2" />
+        <module name="seata-spring" />
+        <module name="seata-common" />
+        <module name="seata-rm" />
+        <module name="seata-discovery-eureka" />
+        <module name="seata-saga-tm" />
+        <module name="seata-config-etcd3" />
+        <module name="seata-config-apollo" />
+        <module name="seata-serializer-fst" />
+        <module name="seata-motan" />
+        <module name="seata-saga-engine-store" />
+        <module name="seata-discovery-nacos" />
+        <module name="seata-serializer-seata" />
+        <module name="seata-rm-datasource" />
+        <module name="seata-serializer-kryo" />
+        <module name="seata-config-nacos" />
+        <module name="seata-config-zk" />
+        <module name="seata-config-core" />
+        <module name="seata-hsf" />
+        <module name="seata-config-spring-cloud" />
+        <module name="seata-compressor-all" />
+        <module name="seata-compressor-zip" />
+        <module name="seata-serializer-protobuf" />
+        <module name="seata-all" />
+        <module name="seata-spring-autoconfigure-server" />
+        <module name="seata-discovery-custom" />
+        <module name="apm-seata-skywalking-plugin" />
+        <module name="seata-config-custom" />
+        <module name="seata-spring-autoconfigure-client" />
+        <module name="seata-http" />
+        <module name="seata-serializer-hessian" />
+        <module name="seata-serializer-all" />
+        <module name="seata-saga-engine" />
+        <module name="seata-compressor-gzip" />
+        <module name="seata-metrics-exporter-prometheus" />
+        <module name="seata-sofa-rpc" />
+        <module name="seata-metrics-api" />
+        <module name="seata-tm" />
+        <module name="seata-sqlparser-druid" />
+        <module name="seata-compressor-deflater" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="apm-seata-skywalking-plugin" options="-parameters" />
+      <module name="seata-all" options="-parameters" />
+      <module name="seata-brpc" options="-parameters" />
+      <module name="seata-common" options="-parameters" />
+      <module name="seata-compressor-7z" options="-parameters" />
+      <module name="seata-compressor-all" options="-parameters" />
+      <module name="seata-compressor-bzip2" options="-parameters" />
+      <module name="seata-compressor-deflater" options="-parameters" />
+      <module name="seata-compressor-gzip" options="-parameters" />
+      <module name="seata-compressor-lz4" options="-parameters" />
+      <module name="seata-compressor-zip" options="-parameters" />
+      <module name="seata-compressor-zstd" options="-parameters" />
+      <module name="seata-config-all" options="-parameters" />
+      <module name="seata-config-apollo" options="-parameters" />
+      <module name="seata-config-consul" options="-parameters" />
+      <module name="seata-config-core" options="-parameters" />
+      <module name="seata-config-custom" options="-parameters" />
+      <module name="seata-config-etcd3" options="-parameters" />
+      <module name="seata-config-nacos" options="-parameters" />
+      <module name="seata-config-spring-cloud" options="-parameters" />
+      <module name="seata-config-zk" options="-parameters" />
+      <module name="seata-console" options="-parameters" />
+      <module name="seata-core" options="-parameters" />
+      <module name="seata-discovery-all" options="-parameters" />
+      <module name="seata-discovery-consul" options="-parameters" />
+      <module name="seata-discovery-core" options="-parameters" />
+      <module name="seata-discovery-custom" options="-parameters" />
+      <module name="seata-discovery-etcd3" options="-parameters" />
+      <module name="seata-discovery-eureka" options="-parameters" />
+      <module name="seata-discovery-nacos" options="-parameters" />
+      <module name="seata-discovery-redis" options="-parameters" />
+      <module name="seata-discovery-sofa" options="-parameters" />
+      <module name="seata-discovery-zk" options="-parameters" />
+      <module name="seata-dubbo" options="-parameters" />
+      <module name="seata-dubbo-alibaba" options="-parameters" />
+      <module name="seata-grpc" options="-parameters" />
+      <module name="seata-hsf" options="-parameters" />
+      <module name="seata-http" options="-parameters" />
+      <module name="seata-metrics-all" options="-parameters" />
+      <module name="seata-metrics-api" options="-parameters" />
+      <module name="seata-metrics-core" options="-parameters" />
+      <module name="seata-metrics-exporter-prometheus" options="-parameters" />
+      <module name="seata-metrics-registry-compact" options="-parameters" />
+      <module name="seata-motan" options="-parameters" />
+      <module name="seata-parent" options="-parameters" />
+      <module name="seata-rm" options="-parameters" />
+      <module name="seata-rm-datasource" options="-parameters" />
+      <module name="seata-saga-engine" options="-parameters" />
+      <module name="seata-saga-engine-store" options="-parameters" />
+      <module name="seata-saga-processctrl" options="-parameters" />
+      <module name="seata-saga-rm" options="-parameters" />
+      <module name="seata-saga-statelang" options="-parameters" />
+      <module name="seata-saga-tm" options="-parameters" />
+      <module name="seata-serializer-all" options="-parameters" />
+      <module name="seata-serializer-fst" options="-parameters" />
+      <module name="seata-serializer-hessian" options="-parameters" />
+      <module name="seata-serializer-kryo" options="-parameters" />
+      <module name="seata-serializer-protobuf" options="-parameters" />
+      <module name="seata-serializer-seata" options="-parameters" />
+      <module name="seata-server" options="-parameters" />
+      <module name="seata-sofa-rpc" options="-parameters" />
+      <module name="seata-spring" options="-parameters" />
+      <module name="seata-spring-autoconfigure-client" options="-parameters" />
+      <module name="seata-spring-autoconfigure-core" options="-parameters" />
+      <module name="seata-spring-autoconfigure-server" options="-parameters" />
+      <module name="seata-spring-boot-starter" options="-parameters" />
+      <module name="seata-sqlparser-antlr" options="-parameters" />
+      <module name="seata-sqlparser-core" options="-parameters" />
+      <module name="seata-sqlparser-druid" options="-parameters" />
+      <module name="seata-tcc" options="-parameters" />
+      <module name="seata-test" options="-parameters" />
+      <module name="seata-tm" options="-parameters" />
+    </option>
+  </component>
+</project>

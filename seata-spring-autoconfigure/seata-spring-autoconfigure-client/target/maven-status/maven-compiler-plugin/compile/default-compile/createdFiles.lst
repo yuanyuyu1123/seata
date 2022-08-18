@@ -1,0 +1,13 @@
+io\seata\spring\boot\autoconfigure\properties\client\LoadBalanceProperties.class
+io\seata\spring\boot\autoconfigure\properties\client\LockProperties.class
+io\seata\spring\boot\autoconfigure\properties\client\TmProperties.class
+io\seata\spring\boot\autoconfigure\properties\SpringCloudAlibabaConfiguration.class
+io\seata\spring\boot\autoconfigure\properties\SeataProperties.class
+META-INF\spring-configuration-metadata.json
+io\seata\spring\boot\autoconfigure\SeataTCCFenceAutoConfiguration.class
+io\seata\spring\boot\autoconfigure\properties\client\ServiceProperties.class
+io\seata\spring\boot\autoconfigure\properties\client\RmProperties.class
+io\seata\spring\boot\autoconfigure\properties\client\UndoProperties.class
+io\seata\spring\boot\autoconfigure\properties\client\UndoCompressProperties.class
+io\seata\spring\boot\autoconfigure\properties\SagaAsyncThreadPoolProperties.class
+io\seata\spring\boot\autoconfigure\SeataClientEnvironmentPostProcessor.class

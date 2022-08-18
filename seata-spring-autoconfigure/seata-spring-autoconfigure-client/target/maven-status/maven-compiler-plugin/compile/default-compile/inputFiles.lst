@@ -1,0 +1,12 @@
+E:\javagit\seata\seata-spring-autoconfigure\seata-spring-autoconfigure-client\src\main\java\io\seata\spring\boot\autoconfigure\properties\client\RmProperties.java
+E:\javagit\seata\seata-spring-autoconfigure\seata-spring-autoconfigure-client\src\main\java\io\seata\spring\boot\autoconfigure\properties\client\LoadBalanceProperties.java
+E:\javagit\seata\seata-spring-autoconfigure\seata-spring-autoconfigure-client\src\main\java\io\seata\spring\boot\autoconfigure\properties\client\UndoProperties.java
+E:\javagit\seata\seata-spring-autoconfigure\seata-spring-autoconfigure-client\src\main\java\io\seata\spring\boot\autoconfigure\SeataClientEnvironmentPostProcessor.java
+E:\javagit\seata\seata-spring-autoconfigure\seata-spring-autoconfigure-client\src\main\java\io\seata\spring\boot\autoconfigure\SeataTCCFenceAutoConfiguration.java
+E:\javagit\seata\seata-spring-autoconfigure\seata-spring-autoconfigure-client\src\main\java\io\seata\spring\boot\autoconfigure\properties\client\LockProperties.java
+E:\javagit\seata\seata-spring-autoconfigure\seata-spring-autoconfigure-client\src\main\java\io\seata\spring\boot\autoconfigure\properties\client\TmProperties.java
+E:\javagit\seata\seata-spring-autoconfigure\seata-spring-autoconfigure-client\src\main\java\io\seata\spring\boot\autoconfigure\properties\SeataProperties.java
+E:\javagit\seata\seata-spring-autoconfigure\seata-spring-autoconfigure-client\src\main\java\io\seata\spring\boot\autoconfigure\properties\client\ServiceProperties.java
+E:\javagit\seata\seata-spring-autoconfigure\seata-spring-autoconfigure-client\src\main\java\io\seata\spring\boot\autoconfigure\properties\client\UndoCompressProperties.java
+E:\javagit\seata\seata-spring-autoconfigure\seata-spring-autoconfigure-client\src\main\java\io\seata\spring\boot\autoconfigure\properties\SagaAsyncThreadPoolProperties.java
+E:\javagit\seata\seata-spring-autoconfigure\seata-spring-autoconfigure-client\src\main\java\io\seata\spring\boot\autoconfigure\properties\SpringCloudAlibabaConfiguration.java

@@ -1,0 +1,6 @@
+io\seata\integration\http\XidResource.class
+io\seata\integration\http\AbstractHttpExecutor.class
+io\seata\integration\http\HttpExecutor.class
+io\seata\integration\http\HttpHandlerExceptionResolver.class
+io\seata\integration\http\TransactionPropagationInterceptor.class
+io\seata\integration\http\DefaultHttpExecutor.class

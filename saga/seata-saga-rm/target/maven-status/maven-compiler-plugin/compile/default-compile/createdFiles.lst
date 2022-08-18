@@ -1,0 +1,4 @@
+io\seata\saga\rm\RMHandlerSaga.class
+io\seata\saga\rm\SagaResource.class
+io\seata\saga\rm\StateMachineEngineHolder.class
+io\seata\saga\rm\SagaResourceManager.class

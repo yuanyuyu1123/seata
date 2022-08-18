@@ -1,0 +1,620 @@
+{
+  "groups": [
+    {
+      "name": "seata",
+      "type": "io.seata.spring.boot.autoconfigure.properties.SeataProperties",
+      "sourceType": "io.seata.spring.boot.autoconfigure.properties.SeataProperties"
+    },
+    {
+      "name": "seata.client.load-balance",
+      "type": "io.seata.spring.boot.autoconfigure.properties.client.LoadBalanceProperties",
+      "sourceType": "io.seata.spring.boot.autoconfigure.properties.client.LoadBalanceProperties"
+    },
+    {
+      "name": "seata.client.rm",
+      "type": "io.seata.spring.boot.autoconfigure.properties.client.RmProperties",
+      "sourceType": "io.seata.spring.boot.autoconfigure.properties.client.RmProperties"
+    },
+    {
+      "name": "seata.client.rm.lock",
+      "type": "io.seata.spring.boot.autoconfigure.properties.client.LockProperties",
+      "sourceType": "io.seata.spring.boot.autoconfigure.properties.client.LockProperties"
+    },
+    {
+      "name": "seata.client.tm",
+      "type": "io.seata.spring.boot.autoconfigure.properties.client.TmProperties",
+      "sourceType": "io.seata.spring.boot.autoconfigure.properties.client.TmProperties"
+    },
+    {
+      "name": "seata.client.undo",
+      "type": "io.seata.spring.boot.autoconfigure.properties.client.UndoProperties",
+      "sourceType": "io.seata.spring.boot.autoconfigure.properties.client.UndoProperties"
+    },
+    {
+      "name": "seata.client.undo.compress",
+      "type": "io.seata.spring.boot.autoconfigure.properties.client.UndoCompressProperties",
+      "sourceType": "io.seata.spring.boot.autoconfigure.properties.client.UndoCompressProperties"
+    },
+    {
+      "name": "seata.saga.state-machine.async-thread-pool",
+      "type": "io.seata.spring.boot.autoconfigure.properties.SagaAsyncThreadPoolProperties",
+      "sourceType": "io.seata.spring.boot.autoconfigure.properties.SagaAsyncThreadPoolProperties"
+    },
+    {
+      "name": "seata.service",
+      "type": "io.seata.spring.boot.autoconfigure.properties.client.ServiceProperties",
+      "sourceType": "io.seata.spring.boot.autoconfigure.properties.client.ServiceProperties"
+    },
+    {
+      "name": "seata.tcc.fence",
+      "type": "io.seata.rm.tcc.config.TCCFenceConfig",
+      "sourceType": "io.seata.spring.boot.autoconfigure.SeataTCCFenceAutoConfiguration",
+      "sourceMethod": "tccFenceConfig(javax.sql.DataSource,org.springframework.transaction.PlatformTransactionManager,javax.sql.DataSource,org.springframework.transaction.PlatformTransactionManager)"
+    },
+    {
+      "name": "spring.cloud.alibaba.seata",
+      "type": "io.seata.spring.boot.autoconfigure.properties.SpringCloudAlibabaConfiguration",
+      "sourceType": "io.seata.spring.boot.autoconfigure.properties.SpringCloudAlibabaConfiguration"
+    }
+  ],
+  "properties": [
+    {
+      "name": "seata.access-key",
+      "type": "java.lang.String",
+      "description": "used for aliyun accessKey",
+      "sourceType": "io.seata.spring.boot.autoconfigure.properties.SeataProperties"
+    },
+    {
+      "name": "seata.application-id",
+      "type": "java.lang.String",
+      "description": "application id",
+      "sourceType": "io.seata.spring.boot.autoconfigure.properties.SeataProperties",
+      "defaultValue": "${spring.application.name:}"
+    },
+    {
+      "name": "seata.client.load-balance.type",
+      "type": "java.lang.String",
+      "description": "the load balance",
+      "sourceType": "io.seata.spring.boot.autoconfigure.properties.client.LoadBalanceProperties",
+      "defaultValue": "RandomLoadBalance"
+    },
+    {
+      "name": "seata.client.load-balance.virtual-nodes",
+      "type": "java.lang.Integer",
+      "description": "the load balance virtual nodes",
+      "sourceType": "io.seata.spring.boot.autoconfigure.properties.client.LoadBalanceProperties",
+      "defaultValue": 10
+    },
+    {
+      "name": "seata.client.rm.async-commit-buffer-limit",
+      "type": "java.lang.Integer",
+      "sourceType": "io.seata.spring.boot.autoconfigure.properties.client.RmProperties",
+      "defaultValue": 10000
+    },
+    {
+      "name": "seata.client.rm.branch-execution-timeout-x-a",
+      "type": "java.lang.Integer",
+      "sourceType": "io.seata.spring.boot.autoconfigure.properties.client.RmProperties"
+    },
+    {
+      "name": "seata.client.rm.connection-two-phase-hold-timeout-x-a",
+      "type": "java.lang.Integer",
+      "sourceType": "io.seata.spring.boot.autoconfigure.properties.client.RmProperties"
+    },
+    {
+      "name": "seata.client.rm.lock.retry-interval",
+      "type": "java.lang.Integer",
+      "sourceType": "io.seata.spring.boot.autoconfigure.properties.client.LockProperties",
+      "defaultValue": 10
+    },
+    {
+      "name": "seata.client.rm.lock.retry-policy-branch-rollback-on-conflict",
+      "type": "java.lang.Boolean",
+      "sourceType": "io.seata.spring.boot.autoconfigure.properties.client.LockProperties",
+      "defaultValue": true
+    },
+    {
+      "name": "seata.client.rm.lock.retry-times",
+      "type": "java.lang.Integer",
+      "sourceType": "io.seata.spring.boot.autoconfigure.properties.client.LockProperties",
+      "defaultValue": 30
+    },
+    {
+      "name": "seata.client.rm.report-retry-count",
+      "type": "java.lang.Integer",
+      "sourceType": "io.seata.spring.boot.autoconfigure.properties.client.RmProperties",
+      "defaultValue": 5
+    },
+    {
+      "name": "seata.client.rm.report-success-enable",
+      "type": "java.lang.Boolean",
+      "sourceType": "io.seata.spring.boot.autoconfigure.properties.client.RmProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "seata.client.rm.saga-branch-register-enable",
+      "type": "java.lang.Boolean",
+      "sourceType": "io.seata.spring.boot.autoconfigure.properties.client.RmProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "seata.client.rm.saga-compensate-persist-mode-update",
+      "type": "java.lang.Boolean",
+      "sourceType": "io.seata.spring.boot.autoconfigure.properties.client.RmProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "seata.client.rm.saga-json-parser",
+      "type": "java.lang.String",
+      "sourceType": "io.seata.spring.boot.autoconfigure.properties.client.RmProperties",
+      "defaultValue": "fastjson"
+    },
+    {
+      "name": "seata.client.rm.saga-retry-persist-mode-update",
+      "type": "java.lang.Boolean",
+      "sourceType": "io.seata.spring.boot.autoconfigure.properties.client.RmProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "seata.client.rm.sql-parser-type",
+      "type": "java.lang.String",
+      "sourceType": "io.seata.spring.boot.autoconfigure.properties.client.RmProperties",
+      "defaultValue": "druid"
+    },
+    {
+      "name": "seata.client.rm.table-meta-check-enable",
+      "type": "java.lang.Boolean",
+      "sourceType": "io.seata.spring.boot.autoconfigure.properties.client.RmProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "seata.client.rm.table-meta-checker-interval",
+      "type": "java.lang.Long",
+      "sourceType": "io.seata.spring.boot.autoconfigure.properties.client.RmProperties",
+      "defaultValue": 60000
+    },
+    {
+      "name": "seata.client.rm.tcc-action-interceptor-order",
+      "type": "java.lang.Integer",
+      "sourceType": "io.seata.spring.boot.autoconfigure.properties.client.RmProperties",
+      "defaultValue": -2147482648
+    },
+    {
+      "name": "seata.client.tm.commit-retry-count",
+      "type": "java.lang.Integer",
+      "sourceType": "io.seata.spring.boot.autoconfigure.properties.client.TmProperties",
+      "defaultValue": 5
+    },
+    {
+      "name": "seata.client.tm.default-global-transaction-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "io.seata.spring.boot.autoconfigure.properties.client.TmProperties",
+      "defaultValue": 60000
+    },
+    {
+      "name": "seata.client.tm.degrade-check",
+      "type": "java.lang.Boolean",
+      "sourceType": "io.seata.spring.boot.autoconfigure.properties.client.TmProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "seata.client.tm.degrade-check-allow-times",
+      "type": "java.lang.Integer",
+      "sourceType": "io.seata.spring.boot.autoconfigure.properties.client.TmProperties",
+      "defaultValue": 10
+    },
+    {
+      "name": "seata.client.tm.degrade-check-period",
+      "type": "java.lang.Integer",
+      "sourceType": "io.seata.spring.boot.autoconfigure.properties.client.TmProperties",
+      "defaultValue": 2000
+    },
+    {
+      "name": "seata.client.tm.interceptor-order",
+      "type": "java.lang.Integer",
+      "sourceType": "io.seata.spring.boot.autoconfigure.properties.client.TmProperties",
+      "defaultValue": -2147482648
+    },
+    {
+      "name": "seata.client.tm.rollback-retry-count",
+      "type": "java.lang.Integer",
+      "sourceType": "io.seata.spring.boot.autoconfigure.properties.client.TmProperties",
+      "defaultValue": 5
+    },
+    {
+      "name": "seata.client.undo.compress.enable",
+      "type": "java.lang.Boolean",
+      "sourceType": "io.seata.spring.boot.autoconfigure.properties.client.UndoCompressProperties",
+      "defaultValue": true
+    },
+    {
+      "name": "seata.client.undo.compress.threshold",
+      "type": "java.lang.String",
+      "sourceType": "io.seata.spring.boot.autoconfigure.properties.client.UndoCompressProperties",
+      "defaultValue": "64k"
+    },
+    {
+      "name": "seata.client.undo.compress.type",
+      "type": "java.lang.String",
+      "sourceType": "io.seata.spring.boot.autoconfigure.properties.client.UndoCompressProperties",
+      "defaultValue": "zip"
+    },
+    {
+      "name": "seata.client.undo.data-validation",
+      "type": "java.lang.Boolean",
+      "sourceType": "io.seata.spring.boot.autoconfigure.properties.client.UndoProperties",
+      "defaultValue": true
+    },
+    {
+      "name": "seata.client.undo.log-serialization",
+      "type": "java.lang.String",
+      "sourceType": "io.seata.spring.boot.autoconfigure.properties.client.UndoProperties",
+      "defaultValue": "jackson"
+    },
+    {
+      "name": "seata.client.undo.log-table",
+      "type": "java.lang.String",
+      "sourceType": "io.seata.spring.boot.autoconfigure.properties.client.UndoProperties",
+      "defaultValue": "undo_log"
+    },
+    {
+      "name": "seata.client.undo.only-care-update-columns",
+      "type": "java.lang.Boolean",
+      "sourceType": "io.seata.spring.boot.autoconfigure.properties.client.UndoProperties",
+      "defaultValue": true
+    },
+    {
+      "name": "seata.data-source-proxy-mode",
+      "type": "java.lang.String",
+      "description": "data source proxy mode",
+      "sourceType": "io.seata.spring.boot.autoconfigure.properties.SeataProperties",
+      "defaultValue": "AT"
+    },
+    {
+      "name": "seata.enable-auto-data-source-proxy",
+      "type": "java.lang.Boolean",
+      "description": "Whether enable auto proxying of datasource bean",
+      "sourceType": "io.seata.spring.boot.autoconfigure.properties.SeataProperties",
+      "defaultValue": true
+    },
+    {
+      "name": "seata.enabled",
+      "type": "java.lang.Boolean",
+      "description": "whether enable auto configuration",
+      "sourceType": "io.seata.spring.boot.autoconfigure.properties.SeataProperties",
+      "defaultValue": true
+    },
+    {
+      "name": "seata.excludes-for-auto-proxying",
+      "type": "java.lang.String[]",
+      "description": "Specifies which datasource bean are not eligible for auto-proxying",
+      "sourceType": "io.seata.spring.boot.autoconfigure.properties.SeataProperties",
+      "defaultValue": []
+    },
+    {
+      "name": "seata.excludes-for-scanning",
+      "type": "java.lang.String[]",
+      "description": "Specifies beans that won't be scanned in the GlobalTransactionScanner",
+      "sourceType": "io.seata.spring.boot.autoconfigure.properties.SeataProperties",
+      "defaultValue": []
+    },
+    {
+      "name": "seata.saga.enabled",
+      "type": "java.lang.Boolean",
+      "description": "Whether enable saga auto configuration.",
+      "sourceType": "io.seata.spring.boot.autoconfigure.SeataSagaAutoConfiguration",
+      "defaultValue": false
+    },
+    {
+      "name": "seata.saga.state-machine.async-thread-pool.core-pool-size",
+      "type": "java.lang.Integer",
+      "description": "core pool size.",
+      "sourceType": "io.seata.spring.boot.autoconfigure.properties.SagaAsyncThreadPoolProperties",
+      "defaultValue": 1
+    },
+    {
+      "name": "seata.saga.state-machine.async-thread-pool.keep-alive-time",
+      "type": "java.lang.Integer",
+      "description": "keep alive time",
+      "sourceType": "io.seata.spring.boot.autoconfigure.properties.SagaAsyncThreadPoolProperties",
+      "defaultValue": 60
+    },
+    {
+      "name": "seata.saga.state-machine.async-thread-pool.max-pool-size",
+      "type": "java.lang.Integer",
+      "description": "max pool size",
+      "sourceType": "io.seata.spring.boot.autoconfigure.properties.SagaAsyncThreadPoolProperties",
+      "defaultValue": 20
+    },
+    {
+      "name": "seata.saga.state-machine.auto-register-resources",
+      "type": "java.lang.Boolean",
+      "description": "Whether enable auto register state lang resources.",
+      "sourceType": "io.seata.saga.engine.impl.DefaultStateMachineConfig",
+      "defaultValue": true
+    },
+    {
+      "name": "seata.saga.state-machine.charset",
+      "type": "java.lang.String",
+      "description": "State machine repository charset.",
+      "sourceType": "io.seata.saga.engine.impl.DefaultStateMachineConfig",
+      "defaultValue": "UTF-8"
+    },
+    {
+      "name": "seata.saga.state-machine.default-tenant-id",
+      "type": "java.lang.String",
+      "description": "Default tenant id.",
+      "sourceType": "io.seata.saga.engine.impl.DefaultStateMachineConfig",
+      "defaultValue": "000001"
+    },
+    {
+      "name": "seata.saga.state-machine.enable-async",
+      "type": "java.lang.Boolean",
+      "description": "Whether enable state machine async function.",
+      "sourceType": "io.seata.saga.engine.impl.DefaultStateMachineConfig",
+      "defaultValue": false
+    },
+    {
+      "name": "seata.saga.state-machine.resources",
+      "type": "java.util.List<java.lang.String>",
+      "description": "State lang resources.",
+      "sourceType": "io.seata.saga.engine.impl.DefaultStateMachineConfig",
+      "defaultValue": "classpath*:seata\/saga\/statelang\/**\/*.json"
+    },
+    {
+      "name": "seata.saga.state-machine.service-invoke-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "io.seata.saga.engine.impl.DefaultStateMachineConfig",
+      "defaultValue": 300000
+    },
+    {
+      "name": "seata.saga.state-machine.table-prefix",
+      "type": "java.lang.String",
+      "sourceType": "io.seata.saga.engine.config.DbStateMachineConfig",
+      "defaultValue": "seata_"
+    },
+    {
+      "name": "seata.saga.state-machine.trans-operation-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "io.seata.saga.engine.impl.DefaultStateMachineConfig",
+      "defaultValue": 1800000
+    },
+    {
+      "name": "seata.scan-packages",
+      "type": "java.lang.String[]",
+      "description": "The scan packages. If empty, will scan all beans.",
+      "sourceType": "io.seata.spring.boot.autoconfigure.properties.SeataProperties",
+      "defaultValue": []
+    },
+    {
+      "name": "seata.secret-key",
+      "type": "java.lang.String",
+      "description": "used for aliyun secretKey",
+      "sourceType": "io.seata.spring.boot.autoconfigure.properties.SeataProperties"
+    },
+    {
+      "name": "seata.service.disable-global-transaction",
+      "type": "java.lang.Boolean",
+      "description": "disable globalTransaction",
+      "sourceType": "io.seata.spring.boot.autoconfigure.properties.client.ServiceProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "seata.service.enable-degrade",
+      "type": "java.lang.Boolean",
+      "description": "degrade current not support",
+      "sourceType": "io.seata.spring.boot.autoconfigure.properties.client.ServiceProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "seata.service.grouplist",
+      "type": "java.util.Map<java.lang.String,java.lang.String>",
+      "description": "group list",
+      "sourceType": "io.seata.spring.boot.autoconfigure.properties.client.ServiceProperties"
+    },
+    {
+      "name": "seata.service.vgroup-mapping",
+      "type": "java.util.Map<java.lang.String,java.lang.String>",
+      "description": "vgroup->rgroup",
+      "sourceType": "io.seata.spring.boot.autoconfigure.properties.client.ServiceProperties"
+    },
+    {
+      "name": "seata.tcc.fence.clean-period",
+      "type": "java.time.Duration",
+      "description": "TCC fence log clean period. only duration type format are supported.",
+      "sourceType": "io.seata.rm.tcc.config.TCCFenceConfig",
+      "defaultValue": "1d"
+    },
+    {
+      "name": "seata.tcc.fence.log-table-name",
+      "type": "java.lang.String",
+      "description": "TCC fence log table name.",
+      "sourceType": "io.seata.rm.tcc.config.TCCFenceConfig",
+      "defaultValue": "tcc_fence_log"
+    },
+    {
+      "name": "seata.tx-service-group",
+      "type": "java.lang.String",
+      "description": "transaction service group",
+      "sourceType": "io.seata.spring.boot.autoconfigure.properties.SeataProperties"
+    },
+    {
+      "name": "seata.use-jdk-proxy",
+      "type": "java.lang.Boolean",
+      "description": "Whether use JDK proxy instead of CGLIB proxy",
+      "sourceType": "io.seata.spring.boot.autoconfigure.properties.SeataProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "seata.registry.load-balance",
+      "type": "java.lang.String",
+      "sourceType": "io.seata.spring.boot.autoconfigure.properties.registry.RegistryProperties",
+      "defaultValue": "RandomLoadBalance",
+      "deprecated": true,
+      "deprecation": {
+        "level": "error",
+        "reason": "Please configure to 'seata.client.load-balance.type'.",
+        "replacement": "seata.client.load-balance.type"
+      }
+    },
+    {
+      "name": "seata.registry.load-balance-virtual-nodes",
+      "type": "java.lang.Integer",
+      "sourceType": "io.seata.spring.boot.autoconfigure.properties.registry.RegistryProperties",
+      "defaultValue": 10,
+      "deprecated": true,
+      "deprecation": {
+        "level": "error",
+        "reason": "Please configure to 'seata.client.load-balance.virtual-nodes'.",
+        "replacement": "seata.client.load-balance.virtual-nodes"
+      }
+    },
+    {
+      "name": "spring.cloud.alibaba.seata.application-id",
+      "type": "java.lang.String",
+      "description": "The application id, default value if '${spring.application.name}'.",
+      "sourceType": "io.seata.spring.boot.autoconfigure.properties.SpringCloudAlibabaConfiguration",
+      "defaultValue": "${spring.application.name:}",
+      "deprecated": true,
+      "deprecation": {
+        "level": "warning",
+        "reason": "It may be removed in a future release, please configure to 'seata.application-id'.",
+        "replacement": "seata.application-id"
+      }
+    },
+    {
+      "name": "spring.cloud.alibaba.seata.tx-service-group",
+      "type": "java.lang.String",
+      "description": "The tx-service-group.",
+      "sourceType": "io.seata.spring.boot.autoconfigure.properties.SpringCloudAlibabaConfiguration",
+      "deprecated": true,
+      "deprecation": {
+        "level": "warning",
+        "reason": "It may be removed in a future release, please configure to 'seata.tx-service-group'.",
+        "replacement": "seata.tx-service-group"
+      }
+    }
+  ],
+  "hints": [
+    {
+      "name": "seata.client.load-balance.type",
+      "values": [
+        {
+          "value": "RandomLoadBalance",
+          "description": "the default load balance."
+        },
+        {
+          "value": "ConsistentHashLoadBalance"
+        },
+        {
+          "value": "RoundRobinLoadBalance"
+        },
+        {
+          "value": "LeastActiveLoadBalance"
+        }
+      ]
+    },
+    {
+      "name": "seata.client.rm.saga-json-parser",
+      "values": [
+        {
+          "value": "fastjson",
+          "description": "the default parser."
+        },
+        {
+          "value": "jackson"
+        }
+      ]
+    },
+    {
+      "name": "seata.client.rm.sql-parser-type",
+      "values": [
+        {
+          "value": "druid",
+          "description": "the default type."
+        },
+        {
+          "value": "antlr",
+          "description": "'io.seata:seata-sqlparser-antlr' dependency must be referenced manually."
+        }
+      ]
+    },
+    {
+      "name": "seata.client.undo.compress.type",
+      "providers": [
+        {
+          "name": "handle-as",
+          "parameters": {
+            "target": "io.seata.core.compressor.CompressorType"
+          }
+        }
+      ]
+    },
+    {
+      "name": "seata.client.undo.log-serialization",
+      "values": [
+        {
+          "value": "jackson",
+          "description": "the default serialization."
+        },
+        {
+          "value": "fastjson"
+        },
+        {
+          "value": "kryo"
+        },
+        {
+          "value": "protostuff"
+        },
+        {
+          "value": "fst"
+        }
+      ]
+    },
+    {
+      "name": "seata.data-source-proxy-mode",
+      "values": [
+        {
+          "value": "AT",
+          "description": "the default mode."
+        },
+        {
+          "value": "XA"
+        }
+      ]
+    },
+    {
+      "name": "seata.excludes-for-auto-proxying",
+      "providers": [
+        {
+          "name": "class-reference",
+          "parameters": {
+            "target": "javax.sql.DataSource"
+          }
+        }
+      ]
+    },
+    {
+      "name": "seata.saga.state-machine.charset",
+      "providers": [
+        {
+          "name": "handle-as",
+          "parameters": {
+            "target": "java.nio.charset.Charset"
+          }
+        }
+      ]
+    },
+    {
+      "name": "seata.saga.state-machine.resources",
+      "providers": [
+        {
+          "name": "handle-as",
+          "parameters": {
+            "target": "org.springframework.core.io.Resource"
+          }
+        }
+      ]
+    }
+  ]
+}
